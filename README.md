@@ -1,6 +1,8 @@
 Kobo eReader has a nice feature to organize books by `collection`.
 https://help.kobo.com/hc/en-us/articles/360033887953-Organize-your-eBooks-on-your-Kobo-eReader
-For example: ![collection on kobo reader](https://help.kobo.com/hc/article_attachments/360082199733/New_collections_calout-01.png){:width="200px"}
+For example:
+
+<img src="https://help.kobo.com/hc/article_attachments/360082199733/New_collections_calout-01.png" width="250">
 
 However, if there are too many books, creating collection and add books to the collection can be 
 tedious. 
