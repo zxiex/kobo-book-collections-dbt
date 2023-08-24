@@ -4,7 +4,7 @@ For example:
 
 <img src="https://help.kobo.com/hc/article_attachments/360082199733/New_collections_calout-01.png" width="250">
 
-However, if there are too many books, creating collection and add books to the collection can be 
+However, if there are too many books, creating collection and adding books to the collection can be 
 tedious. 
 
 This project is to create book collections by the directory name using dbt.
