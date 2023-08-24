@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: kobo
+    schema: main
+    description: This is the main schema of the SQLite database
+    tables:
+      - name: books
+        identifier: content
+        description: all the books
