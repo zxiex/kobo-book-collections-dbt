@@ -10,7 +10,7 @@
 }}
 
 
-with new_shelf as (select {{ book_folder_name(BookID) }} as Name
+with new_shelf as (select {{ book_folder_name('BookID') }} as Name
                    from  {{ source('kobo', 'books') }}
                    where BookID like 'file:///%'
                      and ContentType = 9

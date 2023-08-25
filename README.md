@@ -10,24 +10,23 @@ tedious.
 This project is to create book collections by the directory name using dbt.
 
 ## How to use this tool
-1. Checkout [dbt-sqlite](https://github.com/zxiex/dbt-sqlite)
-```shell 
-cd /tmp/
-git clone https://github.com/zxiex/dbt-sqlite.git
-```
-
-Note that `https://github.com/zxiex/dbt-sqlite` is a Fork of
-`https://github.com/codeforkjeff/dbt-sqlite` to fix an [issue](https://github.com/codeforkjeff/dbt-sqlite/issues/47).
-
-2. Checkout this repo
+0. suppose `git`, `pipenv` and `make` are all installed
+1. Checkout this repo
 ```shell
 git clone https://github.com/zxiex/kobo-book-collections-dbt.git
 cd kobo-book-collections-dbt
+
 ```
+
+Note that [dbt-sqlite](https://github.com/zxiex/dbt-sqlite) will be checked out and installed.
+`https://github.com/zxiex/dbt-sqlite` is a Fork of
+`https://github.com/codeforkjeff/dbt-sqlite` to fix an [issue](https://github.com/codeforkjeff/dbt-sqlite/issues/47).
+
 2. Prepare the virtual env (suppose `pipenv` is installed)
 ```shell
-pipenv install 
+make install
 ```
+
 3. Plug the Kobo eReader into Computer (Suppose all the books are put into folders as the expected collection)
 4. Copy the sqlite database file from eReader to `./data` folder (Better to have a backup copy of the file)
 On Mac, the file is `/Volumes/KOBOeReader/.kobo/KoboReader.sqlite`

@@ -2,5 +2,6 @@
 .user.yml
 *~
 /target/
+/dbt-sqlite/
 /Pipfile.lock
 /data/KoboReader.sqlite

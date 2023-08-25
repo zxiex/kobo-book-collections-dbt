@@ -4,10 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-dbt-sqlite = {editable = true, file = "file:///tmp/dbt-sqlite"}
+dbt-sqlite = {editable = true, path = "./dbt-sqlite"}
 
 [dev-packages]
 
 [requires]
 python_version = "3.11"
-python_full_version = "3.11.4"
