@@ -1,5 +1,5 @@
-{%- macro book_folder_name(BookID) -%}
+{%- macro book_folder_name(book_path) -%}
 
-substring(BookID, 21, INSTR(substring(BookID, 21, 40), '/') - 1)
+substring({{book_path}}, 21, INSTR(substring({{book_path}}, 21, 40), '/') - 1)
 
 {%- endmacro -%}

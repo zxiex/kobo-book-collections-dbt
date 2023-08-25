@@ -5,7 +5,7 @@
 
 with new_coll as (
     select
-        {{ book_folder_name(BookID) }} as ShelfName,
+        {{ book_folder_name('BookID') }} as ShelfName,
         BookID                         as ContentId
     from {{ source('kobo', 'books') }}
     where BookID like 'file:///%'
